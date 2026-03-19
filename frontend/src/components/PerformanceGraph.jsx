@@ -22,7 +22,7 @@ function PerformanceGraph({ performanceData }) {
       const data = [
         { label: 'LeetCode Solved', value: performanceData.leetcode.solved },
         { label: 'CodeChef Solved', value: performanceData.codechef.solved },
-        { label: 'HackerRank Solved', value: performanceData.hackerrank.solved },
+        { label: 'HackerRank Hackos', value: performanceData.hackerrank.solved },
         { label: 'GitHub Commits', value: Math.min(performanceData.github.commits, 100) } // Cap for display
       ];
 

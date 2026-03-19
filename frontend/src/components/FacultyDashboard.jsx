@@ -344,7 +344,7 @@ function FacultyDashboard({ user, setUser }) {
                     
                     <div className="bg-gray-50 p-2 rounded">
                       <p className="text-xs text-gray-600 mb-1">HackerRank</p>
-                      <p className="font-bold text-gray-800">Solved: {selectedStudent.performanceData.hackerrank.solved}</p>
+                      <p className="font-bold text-gray-800">Hackos: {selectedStudent.performanceData.hackerrank.solved}</p>
                     </div>
                     
                     <div className="bg-gray-50 p-2 rounded">

@@ -1,0 +1,2 @@
+# Placeholder file for deployment platforms expecting requirements.txt
+# Frontend uses Node.js dependencies from package.json

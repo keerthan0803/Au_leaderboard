@@ -25,7 +25,7 @@ const getLeaderboard = async (req, res) => {
         Math.pow(Math.max(0, student.performanceData.codechef.rating - 1200), 2) / 10 +
         student.performanceData.codechef.contestCount * 50;
 
-      // HackerRank: hn*10
+      // HackerRank: hackos*10 (hn = hackos number)
       const hackerrankScore = student.performanceData.hackerrank.solved * 10;
 
       // GitHub: gc*2 + gs*5 + gprs*2 - gi*2

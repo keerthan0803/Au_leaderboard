@@ -367,7 +367,7 @@ function StudentDashboard({ user, setUser }) {
                       <p className="text-xs font-semibold text-gray-700">HackerRank</p>
                     </div>
                     <p className="text-2xl font-bold text-gray-900">{profile?.performanceData?.hackerrank?.solved || 0}</p>
-                    <p className="text-xs text-gray-600 mt-2">Problems Solved</p>
+                    <p className="text-xs text-gray-600 mt-2">Hackos</p>
                   </div>
                   
                   <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-4 rounded-xl border border-purple-200">

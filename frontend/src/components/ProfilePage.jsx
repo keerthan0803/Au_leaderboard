@@ -213,7 +213,7 @@ function ProfilePage({ user, setUser }) {
                       {profile.performanceData.hackerrank.solved}
                     </p>
                     <div className="text-xs text-gray-500 mt-2">
-                      Problems Solved
+                      Hackos
                     </div>
                   </div>
 
